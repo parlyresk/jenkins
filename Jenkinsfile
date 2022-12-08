@@ -1,5 +1,5 @@
 pipeline {
-  agent { label "jenkins-node" }
+  agent any
 
   triggers {
     pollSCM('* * * * *')
